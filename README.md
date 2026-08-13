@@ -1,2 +1,1 @@
-# mala
-mala's obiect
+ok
