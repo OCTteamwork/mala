@@ -1,0 +1,11 @@
+{
+  "name": "cf-je189-oneclick",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "devDependencies": { "wrangler": "^4.102.0" },
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "wrangler deploy && wrangler d1 migrations apply DB --remote"
+  }
+}
